@@ -27,7 +27,7 @@ Deployment & Extras
 Environment Setup
 Ensure you have a .env file in your project root with the following variables:
 
-plaintext
+```dash
 Copy code
 MONGO_URI=your_mongo_uri
 PORT=5000
@@ -39,12 +39,8 @@ MAILTRAP_ENDPOINT=https://send.api.mailtrap.io/
 
 CLIENT_URL=http://localhost:5173
 Running the Application Locally
-Build the App:
 
 
-~Copy code
-npm run build
-Start the App:
+Build the App: npm run build
 
-bash
-npm run start
+Start the App: npm run start
